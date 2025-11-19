@@ -1,0 +1,16 @@
+*
+
+# Don't ignore directories (so we can recurse into them)
+!*/
+
+# Keep specific files
+!.gitignore
+!*.md
+!flake.lock
+
+# Keep all files in specific directories with certain extensions
+!**/*.nix
+
+# github
+!.github/
+!.github/**
